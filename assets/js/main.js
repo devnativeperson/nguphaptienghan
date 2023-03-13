@@ -8,11 +8,21 @@ var grammars = [
         exam: [{ korea: '지금 가지 말고 내일 가세요', vn: 'Bây giờ đừng đi mà để mai đi' }]
     },
     {
-        no: 1,
+        no: 2,
         title: 'V/ADJ + 아/어/여/해 도 되다 -> 도 돼요 (Được chứ?)',
         types: [],
         mean: 'Được không? được chứ? cũng được, được làm gì, làm gì cũng được làm gì không được.',
         exam: [{ korea: '여기에 앉아도 돼요?', vn: 'Tôi có thể ngồi đây được không?' }, { korea: '모르는 것이 있으면 질문해도 돼요.', vn: 'Nếu có điều gì không biết thì hỏi cũng được.' }]
+    },
+    {
+        no: 3,
+        title: 'V/A + 었어요/았어요/였어요 (Đã)',
+        types: ['Hình thức trang trọng của mẫu câu này là :', '었습니다/았습니다/였습니다, 이었습니다/였습니다'],
+        mean: 'Diễn tả hành động hoặc trạng thái nào đó đã diễn ra. Khi thân của động hoặc tính từ kết thúc bằng các nguyên âm không phải là ‘ㅏ,ㅑ,ㅗ’ thì sử dụng ‘-었어요’, khi kết thúc bằng một trong các nguyên âm ‘ㅏ,ㅑ,ㅗ’ thì sử dụng ‘-았어요’, khi kết thúc bằng ‘-하다’ thì sử dụng ‘-였어요’. Danh từ kết thúc bằng phụ âm thì sử dụng ‘이었어요’, kết thúc bằng nguyên âm thì sử dụng ‘였어요’',
+        exam: [{ korea: '오늘 날씨가 추워요. 그래서 옷을 많이 입었어요.', vn: 'Hôm nay trời lạnh. Vì thế tôi đã mặc nhiều áo.' },
+        { korea: '어제 배가 아팠어요. 그래서 잠을 못 잤어요.', vn: 'Hôm qua tôi bị đau bụng. Vì thế tôi không ngủ được.' },
+        { korea: '지난 주말에 꽃구경을 했어요.', vn: 'Cuối tuần trước tôi đã ngắm hoa.' },
+        ]
     }
 ]
 function renderTypes(types) {
