@@ -36,6 +36,12 @@
     font-size: 13px;
     padding: 10px;
 }
+.training-items .types p{
+    padding: 0;
+}
+.training-items .exams p{
+    padding: 0;
+}
 .training-items button{
     background: blue;
     padding: 10px 25px;
