@@ -34,6 +34,16 @@ var grammars = [
             { korea: '과일을 사려고 시장에 갔어요.', vn: 'Tôi đã đi chợ để mua hoa quả.' },
             { korea: '김밥을 만들려고 재료를 살 거예요.', vn: 'Tôi sẽ mua nguyên liệu để làm cơm cuộn.' },
         ]
+    },
+    {
+        no: 5,
+        title: 'V + 고 싶다 (Muốn - Muốn làm gì)',
+        types: ['V + 고 싶어하다 - Dùng cho chủ thể hành động là ngôi thứ 3 (chỉ những người không tham gia giao tiếp nhưng được nhắc đến trong cuộc giao tiếp: anh ta, bọn ấy, cô ấy, bạn ấy)'],
+        mean: 'Diễn đạt ý muốn thực hiện hành động gì, dùng cho ngôi thứ nhất, thứ hai (Ngôi thứ nhất: chỉ người đang nói: tôi, tao, tớ, mình... Ngôi thứ hai: chỉ người đang giao tiếp cùng: bạn, cậu, mày, anh, chị....)',
+        exam: [
+            { korea: '한국에 가고 싶어요.', vn: 'Tôi muốn đi Hàn Quốc.' },
+            { korea: '리한 씨는 한국에 가고 싶어해요.', vn: 'Leehan muốn đi Hàn Quốc.' },
+        ]
     }
 ]
 function renderTypes(types) {
