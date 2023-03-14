@@ -51,7 +51,8 @@
     border-radius: 10px;
 }
 .training-items:hover{
-    background: blue;
+    background: rgb(197, 137, 47);
+    
 }
 .training-items:hover h3,.training-items:hover p{
     color: white;

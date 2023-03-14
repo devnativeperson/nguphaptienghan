@@ -23,6 +23,17 @@ var grammars = [
         { korea: '어제 배가 아팠어요. 그래서 잠을 못 잤어요.', vn: 'Hôm qua tôi bị đau bụng. Vì thế tôi không ngủ được.' },
         { korea: '지난 주말에 꽃구경을 했어요.', vn: 'Cuối tuần trước tôi đã ngắm hoa.' },
         ]
+    },
+    {
+        no: 4,
+        title: 'V + (으)려고 (Định, để làm gì)',
+        types: [],
+        mean: 'Gắn vào sau thân động từ, thể hiện ý định của chủ ngữ. Nếu V có phụ âm cuối kết hợp với 으려고, nếu động từ không có phụ âm cuối hoặc có phụ âm cuối ㄹ thì kết hợp với 려고',
+        exam: [
+            { korea: '사진을 찍으려고 카메라를 가져갔어요.', vn: 'Tôi đã mang theo máy ảnh để chụp ảnh.' },
+            { korea: '과일을 사려고 시장에 갔어요.', vn: 'Tôi đã đi chợ để mua hoa quả.' },
+            { korea: '김밥을 만들려고 재료를 살 거예요.', vn: 'Tôi sẽ mua nguyên liệu để làm cơm cuộn.' },
+        ]
     }
 ]
 function renderTypes(types) {
@@ -46,7 +57,7 @@ function renderHTML(datas) {
         cur.types.forEach((types, i) => {
 
         });
-        let str = `<div class="training-items">
+        let str = `<div class="training-items"> ${cur.no}
         <img src="" alt="">
         <h3 class="title">${cur.title}</h3>
         <div class="types">
